@@ -3,7 +3,7 @@ import logging
 import azure.functions as func
 import requests
 from bs4 import BeautifulSoup
-from GetProductInfo.Product import Product
+from GetProduct.Product import Product
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
